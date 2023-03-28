@@ -1,0 +1,95 @@
+/* #carousel {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carousel #carousel-inner {
+    height: 100%;
+}
+
+#slideimage {
+    min-height: 95vh;
+} */
+
+.search {
+    width: 35%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#NavCard {
+    background-color: rgb(1, 80, 171);
+}
+
+#top-nav {
+    background-color: #f5f5f7 !important;
+}
+
+#nav-text {
+    color: #030001 !important;
+}
+
+#nav-text1 {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+
+/* product detail page */
+
+#myCarousel1 .list-inline {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#myCarousel1 .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel1 .carousel-indicators>li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel1 .carousel-indicators>li.active img {
+    opacity: 0.7;
+}
+
+#myCarousel .list-inline {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#myCarousel1 .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators>li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+@media (max-width: 500px) {
+    #carousel {
+        display: none !important;
+    }
+}
+
+.userOrderDetailTable {
+    background-color: lightgray;
+}
+/* #myCarousel1 .carousel-indicators>li.active img {
+    opacity: 0.7;
+} */
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
